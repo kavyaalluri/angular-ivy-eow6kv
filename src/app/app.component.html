@@ -1,0 +1,7 @@
+<p>Start editing to see some magic happen :)</p>
+
+<div *ngIf="User">
+  <ul *ngFor="let user of User">
+    <app-shopping [User]="user"></app-shopping>
+  </ul>
+</div>
